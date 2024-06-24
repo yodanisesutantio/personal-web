@@ -9,12 +9,17 @@ export default {
     extend: {
       animation: {
         jump: '1s ease-in-out',
+        duck: '1s ease-in-out',
         beats: '1s ease-in-out',
       },
       keyframes: {
         jump: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-0.7rem)' }, 
+        },
+        duck: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(0.7rem)' }, 
         },
         beats: {
           '0%, 100%': { transform: 'scale(1)' },
