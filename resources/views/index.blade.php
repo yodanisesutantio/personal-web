@@ -19,15 +19,22 @@
 
     <title>Yodanis E. Sutantio</title>
 </head>
-<body class="w-full h-screen px-2 py-2 bg-[#131413]">
+<body class="w-full h-screen px-2 py-2 bg-center bg-cover" style="background-image: url('img/bg-sandstone-texture.png')">
     <div class="grid grid-cols-5 grid-rows-3 gap-1.5 w-full h-full">
-        <div class="col-span- bg-[#E7A967] rounded-xl"></div>
-        <div class="col-span-2 bg-[#E7A967] rounded-xl"></div>
-        <div class="col-span-2 row-span-2 bg-[#E7A967] rounded-xl"></div>
-        <div class="col-span-2 row-span-2 bg-[#E7A967] rounded-xl"></div>
-        <div class="col-span- bg-[#E7A967] rounded-xl"></div>
-        <div class="col-span-2 bg-[#E7A967] rounded-xl"></div>
-        <div class="col-span- bg-[#E7A967] rounded-xl"></div>
+        {{-- Prev Button --}}
+        <div class="col-span- bg-[#E7A967] bg-center bg-cover rounded-md" style="background-image: url('img/col-span.png')"></div>
+        {{-- What I Do ? --}}
+        <div class="col-span-2 bg-[#E7A967] bg-center bg-cover rounded-md" style="background-image: url('img/texture.webp')"></div>
+        {{-- Open Socials --}}
+        <div class="col-span-2 row-span-2 bg-[#E7A967] bg-center bg-cover rounded-md" style="background-image: url('img/texture.webp')"></div>
+        {{-- Project Thumbnail --}}
+        <div class="col-span-2 row-span-2 bg-[#E7A967] bg-center bg-cover rounded-md" style="background-image: url('img/texture.webp')"></div>
+        {{-- Identity Logo --}}
+        <div class="col-span- bg-[#E7A967] bg-center bg-cover rounded-md" style="background-image: url('img/col-span.png')"></div>
+        {{-- Quotes --}}
+        <div class="col-span-2 bg-[#E7A967] bg-center bg-cover rounded-md" style="background-image: url('img/texture.webp')"></div>
+        {{-- Next Button --}}
+        <div class="col-span- bg-[#E7A967] bg-center bg-cover rounded-md" style="background-image: url('img/col-span.png')"></div>
     </div>
 </body>
 </html>
